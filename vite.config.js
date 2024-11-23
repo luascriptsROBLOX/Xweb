@@ -2,7 +2,7 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-  root: './',  // Set the root directory (defaults to project root)
+  root: '.',  // Optional, points to the root directory (default is current directory)
   build: {
     outDir: 'dist',  // Output directory for the build
   },
